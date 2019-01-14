@@ -48,11 +48,13 @@ def Bresenham(x1,y1,x2,y2):
             flag = 1
 
 
-draw.polygon(((10,10),(100,10),(100,100),(10,100)),outline=(255,255,255))
+
+Bresenham(10,10,100,10)
+Bresenham(100,10,100,100)
+Bresenham(100,100,10,100)
+Bresenham(10,10,10,100)
 Bresenham(10,55,55,10)
 Bresenham(10,55,55,100)
 Bresenham(100,55,55,100)
 Bresenham(100,55,55,10)
 im.show()
-
-    
